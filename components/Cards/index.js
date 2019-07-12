@@ -36,4 +36,12 @@ function createCard(cardObj) {
   const authorImageOf = document.createElement('img');
   const authorNameOf = document.createElement('span');
 //
+  // set class names:
+  cardOf.className = 'card';
+  headlineOf.className = 'headline';
+  authorOf.className = 'author';
+  imgOf.className = 'img-container';
+
+
+
 // Create a card for each of the articles and add the card to the DOM.
